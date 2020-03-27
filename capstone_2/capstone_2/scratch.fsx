@@ -6,5 +6,6 @@ open Model
 
 let account = {userId = 1; accountId = 2; balance = 40}
 
-let newAccount =  withDraw( account, 10 )
+let newAccount =  deposit( account, 60 )
 
+printfn "%A" newAccount
